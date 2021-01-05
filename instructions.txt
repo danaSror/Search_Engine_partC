@@ -1,0 +1,36 @@
+Windows:
+	1. Go to https://www.python.org/downloads/release/python-371/ and download python 3.7.1
+	2. Navigate with cmd to the repo folder Search_Engine and edit run.bat. 
+	   Change the python_path from "C:\Users\boris\AppData\Local\Programs\Python\Python37\python.exe" to the path on your local computer
+
+	3. run run.bat. This will make a new venv and install all dependencies on it.
+
+	To start working in the venv put run:			
+		.\venv\Scripts\activate
+	Or follow the video to work with pyCharm
+	
+	If you wish to use conda run install_conda.bat
+	
+Linux/Mac:
+	1. Make the scripts executable:
+		A. chmod +x python_install.sh
+		B. chmod +x run.sh
+	2. Run ./python_install.sh to download and install python 3.7.1 to use system. 
+		This will make default!!!
+	3. Run ./run.sh to make the venv and install all dependencies in it.
+	
+	To start working in the venv run:			
+		source venv/bin/activate
+	Or follow the video to work with pyCharm
+	
+	If you wish to use conda run install_conda.sh
+		
+
+Notes:
+Main Class will be search_engine.
+Do Not change the Basic Class names and locations, You may only add files.
+The tests are automated and sanity checks will be applied on your code when it is uploaded to make sure that the structure remains intact
+								any failure to pass them will not be checked.
+Make sure that the project name will not be changes and will stay Search_Engine.
+The File main.py will be overwritten during he tests, Please make sure that you have no logic in it!!!
+Please note that installing any other package may cause your project to fail it's run while testing.
